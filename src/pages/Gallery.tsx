@@ -1,4 +1,4 @@
-import { Container, Grid, InputLabel, MenuItem, Select, TextField } from "@mui/material"
+import { Grid, MenuItem, Select, TextField } from "@mui/material"
 import React, { useEffect } from "react"
 import axios from "../lib/axios.ts"
 import GalleryComponent from "../components/Gallery.tsx"

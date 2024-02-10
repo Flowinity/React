@@ -3,7 +3,7 @@ import Snackbar from "@mui/material/Snackbar"
 import { Icon, IconButton } from "@mui/material"
 import { clearSnackbar } from "../features/ui"
 import CheckIcon from "@mui/icons-material/Check"
-import { useAppSelector, useAppDispatch } from "../store/hooks"
+import { useAppSelector, useAppDispatch } from "../store/hooks.ts"
 
 export default function SuccessSnackbar() {
   const dispatch = useAppDispatch()
