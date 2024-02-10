@@ -1,14 +1,11 @@
 import {
-  Avatar,
   Box,
-  Button,
   Checkbox,
   FormControlLabel,
   Grid,
   TextField,
   Typography,
   Link as MuiLink,
-  Snackbar
 } from "@mui/material"
 import { LoadingButton } from "@mui/lab"
 import { Link } from "react-router-dom"

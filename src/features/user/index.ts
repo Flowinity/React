@@ -29,6 +29,7 @@ interface UserState {
   domainId?: number
   planId?: number
   domain?: object
+  stats?: object
 }
 
 // Define the initial state using that type
@@ -57,7 +58,8 @@ const initialState: UserState = {
   updatedAt: "",
   domainId: 0,
   planId: 0,
-  domain: {}
+  domain: {},
+  stats: {}
 }
 
 export const authenticate = createAsyncThunk("user/authenticate", async () => {

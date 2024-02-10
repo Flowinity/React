@@ -1,4 +1,4 @@
-import { Avatar, Button, Divider, IconButton, ListItemIcon, Menu, MenuItem, Tooltip } from "@mui/material"
+import { Avatar, Divider, IconButton, ListItemIcon, Menu, MenuItem, Tooltip } from "@mui/material"
 import React from "react"
 import { Logout, PersonAdd, Settings } from "@mui/icons-material"
 import { useAppSelector } from "../../store/hooks.ts"

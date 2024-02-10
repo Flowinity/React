@@ -1,7 +1,5 @@
 import * as React from "react"
 import AppBar from "@mui/material/AppBar"
-import Box from "@mui/material/Box"
-import CssBaseline from "@mui/material/CssBaseline"
 import Drawer from "@mui/material/Drawer"
 import IconButton from "@mui/material/IconButton"
 import List from "@mui/material/List"
@@ -149,7 +147,7 @@ function ResponsiveDrawer() {
       click() {},
       externalPath: "",
       path: "/progress",
-      name: "V2 Progress",
+      name: "V3 Progress",
       icon: <GanttChartIcon></GanttChartIcon>,
       new: true
     }
@@ -213,7 +211,7 @@ function ResponsiveDrawer() {
               flexGrow: 1
             }}
           >
-            TPUv2 - React Alpha
+            TPUv3 - React Alpha
           </Typography>
           {username ? <MenuLoggedIn /> : <AuthButtons />}
         </Toolbar>
